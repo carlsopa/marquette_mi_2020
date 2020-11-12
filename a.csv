@@ -1,0 +1,75 @@
+,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12
+0,Precinct,,Precinct,,,,,,,,,,Times Cast
+1,County,,County,,,,,,,,,,Registered
+2,Marquette,,Marquette,,,,,,,,,,Voters
+3,County,,County,,,,,,,,,,
+4,Michigan,,Michigan,,,,,,,,,,
+5,City of,,City of,498.0,307.0,3.0,0.0,4.0,2.0,0.0,814.0,0.0,
+6,"Ishpeming, 1,568","2,494","Ishpeming,",,,,,,,,,,
+7,Precinct 1,,Precinct 1,,,,,,,,,,
+8,City of,,City of,537.0,313.0,11.0,1.0,9.0,2.0,1.0,874.0,0.0,
+9,"Ishpeming, 1,586","2,870","Ishpeming,",,,,,,,,,,
+10,Precinct 2,,Precinct 2,,,,,,,,,,Democratic Party
+11,,,,,,,,,,,,,(DEM)
+12,City of,,City of,472.0,315.0,7.0,2.0,1.0,5.0,1.0,803.0,0.0,
+13,"Marquette, 1,616","2,277","Marquette,",,,,,,,,,,
+14,Precinct 1,,Precinct 1,,,,,,,,,,Republican Party
+15,City of,,City of,540.0,289.0,6.0,0.0,2.0,4.0,0.0,841.0,0.0,(REP)
+16,"Marquette, 1,724","2,267","Marquette,",,,,,,,,,,
+17,Precinct 2,,Precinct 2,,,,,,,,,,
+18,City of,,City of,462.0,181.0,5.0,0.0,1.0,3.0,0.0,652.0,0.0,Libertarian Party
+19,"Marquette, 1,328","1,698","Marquette,",,,,,,,,,,(LIB)
+20,Precinct 3,,Precinct 3,,,,,,,,,,
+21,City of,,City of,537.0,191.0,10.0,1.0,2.0,3.0,0.0,744.0,0.0,U.S. Taxpayers
+22,"Marquette, 1,402","1,982","Marquette,",,,,,,,,,,Party
+23,Precinct 4,,Precinct 4,,,,,,,,,,(UST)
+24,City of,,City of,555.0,148.0,10.0,1.0,2.0,7.0,0.0,723.0,0.0,Working Class
+25,"Marquette, 1,449","2,085","Marquette,",,,,,,,,,,Party
+26,Precinct 5,,Precinct 5,,,,,,,,,,(WCP)
+27,City of,,City of,530.0,206.0,16.0,0.0,7.0,10.0,1.0,770.0,0.0,
+28,"Marquette, 1,326","2,232","Marquette,",,,,,,,,,,Green Party
+29,Precinct 6,,Precinct 6,,,,,,,,,,(GRN)
+30,City of,,City of,704.0,233.0,10.0,0.0,5.0,3.0,1.0,956.0,0.0,
+31,"Marquette, 1,802","2,508","Marquette,",,,,,,,,,,
+32,Precinct 7,,Precinct 7,,,,,,,,,,Natural Law Party
+33,(NLP)  City of,,City of,393.0,254.0,4.0,2.0,5.0,1.0,0.0,659.0,0.0,
+34,"Negaunee, 1,254","2,011","Negaunee,",,,,,,,,,,
+35,Precinct 1,,Precinct 1,,,,,,,,,,
+36,City of,,City of,424.0,242.0,2.0,2.0,4.0,1.0,2.0,677.0,0.0,Total Votes
+37,"Negaunee, 1,342","1,975","Negaunee,",,,,,,,,,,
+38,Precinct 2,,Precinct 2,,,,,,,,,,Unresolved
+39,,,,,,,,,,,,,Write-In
+40,Champion,,Champion,41.0,36.0,1.0,0.0,0.0,0.0,1.0,79.0,0.0,
+41,"Township, 173",240,"Township,",,,,,,,,,,
+42,Precinct 1,,Precinct 1,,,,,,,,,,
+43,Chocolay,,Chocolay,520.0,357.0,3.0,0.0,6.0,1.0,0.0,887.0,0.0,
+44,"Township, 1,893","2,606","Township,",,,,,,,,,,
+45,Precinct 1,,Precinct 1,,,,,,,,,,
+46,Chocolay,,Chocolay,479.0,398.0,9.0,0.0,4.0,2.0,0.0,892.0,0.0,
+47,"Township, 1,966","2,559","Township,",,,,,,,,,,
+48,Precinct 2,,Precinct 2,,,,,,,,,,
+49,"Ely Township,",,"Ely Township,",263.0,324.0,4.0,0.0,5.0,2.0,1.0,599.0,0.0,
+50,"1,167","1,721",,,,,,,,,,,
+51,Precinct 1,,Precinct 1,,,,,,,,,,
+52,"Ewing Township, 117",140,"Ewing Township,",29.0,29.0,0.0,0.0,1.0,1.0,0.0,60.0,0.0,
+53,Precinct 1,,Precinct 1,,,,,,,,,,
+54,Forsyth,,Forsyth,414.0,416.0,8.0,3.0,9.0,1.0,1.0,852.0,0.0,
+55,"Township, 1,867","2,604","Township,",,,,,,,,,,
+56,Precinct 1,,Precinct 1,,,,,,,,,,
+57,Forsyth,,Forsyth,117.0,175.0,2.0,1.0,3.0,0.0,1.0,299.0,0.0,
+58,"Township, 629",867,"Township,",,,,,,,,,,
+59,Precinct 2,,Precinct 2,,,,,,,,,,
+60,Forsyth,,Forsyth,202.0,255.0,9.0,1.0,4.0,5.0,0.0,476.0,0.0,
+61,"Township, 791","1,568","Township,",,,,,,,,,,
+62,Precinct 3,,Precinct 3,,,,,,,,,,
+63,Humboldt,,Humboldt,68.0,102.0,0.0,0.0,0.0,0.0,0.0,170.0,0.0,
+64,"Township, 316",419,"Township,",,,,,,,,,,
+65,Precinct 1,,Precinct 1,,,,,,,,,,
+66,Ishpeming,,Ishpeming,294.0,239.0,3.0,0.0,7.0,1.0,0.0,544.0,0.0,
+67,"Township, 1,066","1,474","Township,",,,,,,,,,,
+68,Precinct 1,,Precinct 1,,,,,,,,,,
+69,Ishpeming,,Ishpeming,250.0,223.0,2.0,1.0,4.0,2.0,3.0,485.0,0.0,
+70,"Township, 1,066","1,541","Township,",,,,,,,,,,
+71,Precinct 2,,Precinct 2,,,,,,,,,,
+72,"Marquette 1 1,799","2,548",Marquette,572.0,320.0,10.0,4.0,2.0,,2.0,911.0,0.0,
+73,Charter,,Charter,,,,,,,,,,
