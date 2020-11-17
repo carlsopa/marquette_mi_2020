@@ -54,7 +54,7 @@ def removal(dataframe):
     return(dataframe)
 
 
-data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=('5,6'))
+data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=('1-35'))
 for x in data:
     df = x
     df.dropna(axis='rows',how='all',inplace=True)
