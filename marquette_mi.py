@@ -2,6 +2,7 @@ import tabula
 import pandas as pd
 import PyPDF2
 import pdfplumber
+import numpy as np
 
 
 
@@ -25,8 +26,17 @@ def header_split(page):
     #         print(x.split('  ')[6:])
 
 #replacement of NaN values with corresponding data.
+
+def duplicate_column_removal(dataframe):
+    for i in dataframe.index:
+                if dataframe.iloc[i,0] == dataframe.iloc[i,3]:
+                    dataframe.at[i,dataframe.columns[3]] = pd.NA
+    dataframe.dropna(axis='columns',how='all',inplace=True)
+    return(dataframe)
+
 def removal(dataframe):
     row_drop=[]
+    dataframe = duplicate_column_removal(dataframe)
     for index, row in dataframe.iterrows():
                 if pd.isna(row[0]):
                     for label, content in row.items():
@@ -44,7 +54,7 @@ def removal(dataframe):
     return(dataframe)
 
 
-data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=('9,10'))
+data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=('5,6'))
 for x in data:
     df = x
     df.dropna(axis='rows',how='all',inplace=True)
@@ -60,20 +70,17 @@ for x in data:
                     df.drop(df.index[0:index+2],inplace=True)
                     df.dropna(axis='rows',how='all',inplace=True)
                     df.dropna(axis='columns',how='all',inplace=True)
-                    
                     df = df.reset_index(drop=True)
             df = removal(df)
             for x in range(len(df.columns)):
                 df.rename({df.columns[x]:x},axis=1,inplace=True)
             result.append(df)
-
         else:
-
-
+            df.drop(df.tail(4).index,inplace=True)
             df = removal(df)
+            
             for x in range(len(df.columns)):
                 df.rename({df.columns[x]:x},axis=1,inplace=True)
-
             result.append(df)
             continuation = False
         #test stuff
