@@ -8,7 +8,7 @@ import numpy as np
 
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)
-page = 1
+page = 3
 result = []
 row_drop=[]
 race=''
@@ -54,7 +54,7 @@ def removal(dataframe):
     return(dataframe)
 
 
-data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=('1-35'))
+data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=('3-4'))
 for x in data:
     df = x
     df.dropna(axis='rows',how='all',inplace=True)
@@ -89,8 +89,12 @@ for x in data:
             final = final.reset_index(drop=True)
         except:
             final = df
+print(final)
+# for index, row in final.iterrows():
+#     print(row[0])
 
-        race.replace('  ','_')
-        save = race+'.csv'
-        final.to_csv(save)
-        page = page+1
+race.replace('  ','_')
+save = race+'.csv'
+final.to_csv(save)
+page = page+1
+# print(final)
