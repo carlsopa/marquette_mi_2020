@@ -89,12 +89,23 @@ for x in data:
             final = final.reset_index(drop=True)
         except:
             final = df
-print(final)
-# for index, row in final.iterrows():
-#     print(row[0])
-
+# print(final)
+precinct = []
+party = []
+votes = []
+race_name = []
+for index, row in final.iterrows():
+    for x in range(1,len(row)):
+        precinct.append(row[0])
+        party.append('party')
+        votes.append(row[x])
+        race_name.append(race)
+final_result = {'precinct':precinct,'race':race,'party':party,'votes':votes}
+new = pd.DataFrame(final_result)
+# print(new)
 race.replace('  ','_')
 save = race+'.csv'
-final.to_csv(save)
+# final.to_csv(save)
+new.to_csv('new.csv')
 page = page+1
 # print(final)
