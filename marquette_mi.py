@@ -19,13 +19,26 @@ def header_split(page):
         page = pdf.pages[page]
         text = page.extract_text()
     lines = text.split('\n')
+    pdf.close()
     return(lines[3])
-    #future use- work to determine column headers
-    # for x in lines:
-    #     if 'Voters' in x:
-    #         print(x.split('  ')[6:])
 
-#replacement of NaN values with corresponding data.
+#12/8/2020 - attempt at spliting the races from the header
+def race_split(page):
+    str = ''
+    with pdfplumber.open(r'marquette_mi_result.pdf') as pdf: 
+        page = pdf.pages[page]
+        text = page.extract_text()
+    lines = text.split('\n')
+    for x in lines:
+        if 'Voters' in x:
+            string = x
+    # print(string)
+    result_string = string.split('  ')[6:]
+    # print(result_string)
+    print(str.join(result_string).replace(' ',''))
+    # result_string.replace('  ',' ')
+    # print(result_string.replace(' (','('))
+
 
 def duplicate_column_removal(dataframe):
     for i in dataframe.index:
@@ -89,23 +102,44 @@ for x in data:
             final = final.reset_index(drop=True)
         except:
             final = df
+row_index = []
+if pd.isna(final.iloc[0,1]):
+    final = final[1:]
+final = final.reset_index(drop=True)
 # print(final)
-precinct = []
-party = []
-votes = []
-race_name = []
 for index, row in final.iterrows():
-    for x in range(1,len(row)):
-        precinct.append(row[0])
-        party.append('party')
-        votes.append(row[x])
-        race_name.append(race)
-final_result = {'precinct':precinct,'race':race,'party':party,'votes':votes}
-new = pd.DataFrame(final_result)
-# print(new)
+    if row[0] == 'Cumulative':
+        row_index.append(index)
+
+final.drop(row_index,inplace=True)
+final = final.reset_index(drop=True)
+row_index = []
+if final[0].equals(final[3]):
+    final.drop(final.columns[3],axis=1,inplace=True)
+for index,row in final.iterrows():
+    if pd.isna(row[1]):
+        final.loc[index-1,0] = final.loc[index-1,0]+' '+final.loc[index,0]
+        row_index.append(index)
+final.drop(row_index,inplace=True)
+final = final.reset_index(drop=True)
+
+race_split(page-1)
+
+# precinct = []
+# party = []
+# votes = []
+# race_name = []
+# for index, row in final.iterrows():
+#     for x in range(1,len(row)):
+#         precinct.append(row[0])
+#         party.append('party')
+#         votes.append(row[x])
+#         race_name.append(race)
+# final_result = {'precinct':precinct,'race':race,'party':party,'votes':votes}
+# new = pd.DataFrame(final_result)
+
 race.replace('  ','_')
 save = race+'.csv'
-# final.to_csv(save)
-new.to_csv('new.csv')
+final.to_csv(save)
+# new.to_csv('new.csv')
 page = page+1
-# print(final)
