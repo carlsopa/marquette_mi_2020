@@ -9,8 +9,8 @@ import re
 
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)
-page = 3
-pages = '3-4'
+page = 5
+pages = '5-6'
 result = []
 row_drop=[]
 race=''
@@ -26,7 +26,7 @@ def header_split(page):
 
 #12/8/2020 - attempt at spliting the races from the header
 def race_split(page,cnt):
-    print(cnt)
+    result_dict = {}
     str = ''
     preprocess_string = ['QualifiedWriteIn','QualifiedWriteI','QualifiedWrit']
     found = False
@@ -47,10 +47,15 @@ def race_split(page,cnt):
                 str = str.replace(x,'QualifiedWriteIn ')
                 found = True
     for x in str.split(' '):
-        print(x)
-        start = x.find('(')
-        if start != -1:
-            print(x[start+1:start+4])
+        party = x.find('(')
+        qualified = x.find('Qual')
+        if party != -1:
+            result_dict.update({x[0:party]:x[party+1:party+4]})
+        elif qualified != -1:
+            result_dict.update({x[0:qualified]:x[qualified:len(x)]})
+        else:
+            result_dict.update({x:'null'})
+    return result_dict
 
 
 def duplicate_column_removal(dataframe):
@@ -119,7 +124,6 @@ row_index = []
 if pd.isna(final.iloc[0,1]):
     final = final[1:]
 final = final.reset_index(drop=True)
-# print(final)
 for index, row in final.iterrows():
     if row[0] == 'Cumulative':
         row_index.append(index)
@@ -136,23 +140,38 @@ for index,row in final.iterrows():
 final.drop(row_index,inplace=True)
 final = final.reset_index(drop=True)
 col_count = len(final.columns)-3
-race_split(page-1,col_count)
+final.drop(final.columns[1],axis=1,inplace=True)
+final.drop(final.columns[1],axis=1,inplace=True)
 
-# precinct = []
-# party = []
-# votes = []
-# race_name = []
-# for index, row in final.iterrows():
-#     for x in range(1,len(row)):
-#         precinct.append(row[0])
-#         party.append('party')
-#         votes.append(row[x])
-#         race_name.append(race)
-# final_result = {'precinct':precinct,'race':race,'party':party,'votes':votes}
-# new = pd.DataFrame(final_result)
+split_results = race_split(page-1,col_count)
+
+precinct = []
+candidate = []
+party = []
+votes = []
+race_name = []
+test = False
+for index, row in final.iterrows():
+    for data in list(final.columns.values):
+        if data > 0:
+            for x in split_results:
+                if not test:
+                    candidate_data = x
+                    party_data =split_results[x]
+                    test = True
+            candidate.append(candidate_data)
+            party.append(party_data)
+            votes.append(row[data])
+            precinct.append(row[0])
+            race_name.append(race)
+            test = False
+
+final_result = {'precinct':precinct,'race':race_name,'candidate':candidate,'party':party,'votes':votes}
+new = pd.DataFrame(final_result)
+print(new)
 
 race.replace('  ','_')
 save = race+'.csv'
-final.to_csv(save)
-# new.to_csv('new.csv')
+# final.to_csv(save)
+new.to_csv('new.csv')
 page = page+1
