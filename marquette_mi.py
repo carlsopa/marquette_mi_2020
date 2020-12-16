@@ -150,25 +150,34 @@ candidate = []
 party = []
 votes = []
 race_name = []
+key_array = []
 test = False
+# count = 0
+for x in split_results:
+    key_array.append(x)
+print(key_array)
+# print(split_results)
 for index, row in final.iterrows():
+    count= 0
     for data in list(final.columns.values):
         if data > 0:
-            for x in split_results:
-                if not test:
-                    candidate_data = x
-                    party_data =split_results[x]
-                    test = True
-            candidate.append(candidate_data)
-            party.append(party_data)
-            votes.append(row[data])
-            precinct.append(row[0])
-            race_name.append(race)
-            test = False
+            if count < len(key_array):
+                candidate.append(key_array[count])
+                party.append(split_results[key_array[count]])
+
+                votes.append(row[data])
+                precinct.append(row[0])
+                race_name.append(race)
+            count = count+1
+print(len(precinct))
+print(len(race_name))
+print(len(candidate))
+print(len(party))
+print(len(votes))
 
 final_result = {'precinct':precinct,'race':race_name,'candidate':candidate,'party':party,'votes':votes}
 new = pd.DataFrame(final_result)
-print(new)
+# print(new)
 
 race.replace('  ','_')
 save = race+'.csv'
