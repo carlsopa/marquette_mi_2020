@@ -1,0 +1,334 @@
+,precinct,race,candidate,party,votes
+0,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,851
+1,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,672.0
+2,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,12.0
+3,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,8.0
+4,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,3.0
+5,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,546"
+6,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+7,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+8,"City ofIshpeming,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+9,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,921
+10,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,627.0
+11,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,9.0
+12,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,11.0
+13,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+14,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,"1,570"
+15,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+16,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+17,"City ofIshpeming,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+18,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,880
+19,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,685.0
+20,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,9.0
+21,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,10.0
+22,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+23,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,585"
+24,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+25,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+26,"City ofMarquette,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,2.0
+27,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,"1,001"
+28,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,657.0
+29,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,14.0
+30,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,15.0
+31,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+32,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,"1,689"
+33,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+34,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+35,"City ofMarquette,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+36,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,GaryPeters,DEM,831
+37,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,JohnJames,REP,453.0
+38,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,7.0
+39,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,MarciaSquier,GRN,15.0
+40,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+41,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,TotalVotes,null,"1,306"
+42,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+43,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+44,"City ofMarquette,Precinct 3",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+45,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,GaryPeters,DEM,949
+46,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,JohnJames,REP,415.0
+47,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,3.0
+48,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,MarciaSquier,GRN,14.0
+49,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+50,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,TotalVotes,null,"1,382"
+51,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+52,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+53,"City ofMarquette,Precinct 4",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,2.0
+54,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,GaryPeters,DEM,"1,035"
+55,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,JohnJames,REP,359.0
+56,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,6.0
+57,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,MarciaSquier,GRN,28.0
+58,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+59,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,TotalVotes,null,"1,430"
+60,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+61,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+62,"City ofMarquette,Precinct 5",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+63,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,GaryPeters,DEM,873
+64,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,JohnJames,REP,400.0
+65,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,4.0
+66,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,MarciaSquier,GRN,31.0
+67,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+68,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,TotalVotes,null,"1,310"
+69,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+70,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+71,"City ofMarquette,Precinct 6",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,2.0
+72,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,GaryPeters,DEM,"1,249"
+73,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,JohnJames,REP,508.0
+74,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,3.0
+75,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,MarciaSquier,GRN,17.0
+76,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+77,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,TotalVotes,null,"1,777"
+78,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+79,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+80,"City ofMarquette,Precinct 7",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,5.0
+81,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,694
+82,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,532.0
+83,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,4.0
+84,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,8.0
+85,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+86,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,240"
+87,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+88,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+89,"City ofNegaunee,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+90,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,798
+91,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,517.0
+92,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,5.0
+93,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,6.0
+94,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+95,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,"1,327"
+96,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+97,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+98,"City ofNegaunee,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+99,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,95
+100,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,73.0
+101,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,1.0
+102,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,0.0
+103,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+104,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,170
+105,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+106,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+107,"ChampionTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+108,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,986
+109,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,858.0
+110,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,3.0
+111,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,12.0
+112,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+113,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,861"
+114,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+115,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+116,"ChocolayTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+117,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,975
+118,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,929.0
+119,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,6.0
+120,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,20.0
+121,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+122,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,"1,932"
+123,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+124,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+125,"ChocolayTownship,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+126,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,512
+127,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,632.0
+128,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,7.0
+129,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,7.0
+130,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+131,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,159"
+132,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+133,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+134,"Ely Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+135,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,46
+136,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,68.0
+137,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,0.0
+138,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,1.0
+139,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+140,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,116
+141,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+142,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+143,"Ewing Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+144,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,859
+145,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,939.0
+146,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,14.0
+147,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,12.0
+148,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+149,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,825"
+150,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+151,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+152,"ForsythTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,3.0
+153,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,241
+154,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,369.0
+155,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,6.0
+156,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,4.0
+157,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+158,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,622
+159,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+160,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+161,"ForsythTownship,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+162,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,GaryPeters,DEM,346
+163,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,JohnJames,REP,415.0
+164,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,7.0
+165,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,MarciaSquier,GRN,8.0
+166,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,DougDern,NLP,2.0
+167,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,TotalVotes,null,778
+168,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+169,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+170,"ForsythTownship,Precinct 3",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+171,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,133
+172,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,179.0
+173,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,0.0
+174,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,1.0
+175,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+176,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,313
+177,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+178,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+179,"HumboldtTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+180,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,524
+181,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,517.0
+182,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,4.0
+183,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,5.0
+184,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+185,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,050"
+186,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+187,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+188,"IshpemingTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+189,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,528
+190,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,504.0
+191,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,9.0
+192,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,5.0
+193,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+194,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,"1,047"
+195,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+196,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+197,"IshpemingTownship,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+198,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,"1,046"
+199,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,703.0
+200,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,6.0
+201,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,11.0
+202,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+203,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,767"
+204,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+205,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+206,"MarquetteCharter Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,2.0
+207,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,456
+208,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,419
+209,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,1.0
+210,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,5.0
+211,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+212,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,881
+213,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+214,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+215,"MarquetteCharterTownship,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+216,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,101
+217,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,154
+218,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,3.0
+219,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,1.0
+220,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+221,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,259
+222,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+223,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+224,"MichigammeTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+225,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,964
+226,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,915
+227,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,12.0
+228,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,12.0
+229,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,3.0
+230,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,906"
+231,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+232,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+233,"NegauneeTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+234,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,189
+235,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,189
+236,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,0.0
+237,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,2.0
+238,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+239,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,380
+240,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+241,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+242,"Powell Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+243,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,GaryPeters,DEM,98
+244,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,JohnJames,REP,87
+245,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,0.0
+246,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,MarciaSquier,GRN,1.0
+247,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+248,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,TotalVotes,null,186
+249,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+250,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+251,"Powell Township,Precinct 2",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+252,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,319
+253,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,357
+254,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,3.0
+255,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,5.0
+256,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+257,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,685
+258,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+259,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+260,"RepublicTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+261,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,254
+262,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,178
+263,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,3.0
+264,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,1.0
+265,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,3.0
+266,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,439
+267,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+268,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+269,"RichmondTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+270,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,662
+271,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,770
+272,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,8.0
+273,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,9.0
+274,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+275,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,"1,450"
+276,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+277,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+278,"Sands Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+279,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,220
+280,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,278
+281,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,1.0
+282,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,3.0
+283,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+284,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,502
+285,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+286,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+287,"SkandiaTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+288,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,312
+289,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,328
+290,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,5.0
+291,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,3.0
+292,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+293,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,648
+294,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+295,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+296,"Tilden Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+297,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,40
+298,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,39
+299,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,0.0
+300,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,1.0
+301,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,0.0
+302,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,80
+303,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+304,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+305,"Turin Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+306,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,46
+307,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,80
+308,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,0.0
+309,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,1.0
+310,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,1.0
+311,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,128
+312,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+313,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+314,"Wells Township,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,0.0
+315,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,GaryPeters,DEM,374
+316,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,JohnJames,REP,442
+317,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,4.0
+318,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,MarciaSquier,GRN,9.0
+319,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,DougDern,NLP,3.0
+320,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,TotalVotes,null,832
+321,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+322,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+323,"West BranchTownship,Precinct 1",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,1.0
+324,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,GaryPeters,DEM,"20,408"
+325,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,JohnJames,REP,"16,247"
+326,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,ValerieL.Willis,UST,179.0
+327,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,MarciaSquier,GRN,302.0
+328,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,DougDern,NLP,42.0
+329,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,TotalVotes,null,"37,178"
+330,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,RobertWilliamCarr,QualifiedWriteIn,0.0
+331,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,LeonardPaulGadzinski,QualifiedWriteIn,0.0
+332,"MarquetteCounty Michigan- Total",United States Senator (Vote for  1)   ,UnresolvedWrite-In,null,26.0

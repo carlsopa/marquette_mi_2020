@@ -2,14 +2,19 @@ import tabula
 import pandas as pd
 import pdfplumber
 
-
-
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)
-page = 11
-pages = '11'
+page = 13
+page_start = 13
+page_end = 13
+pages = str(page_start)+'-'+str(page_end)
 result = []
 row_drop=[]
+precinct = []
+candidate = []
+party = []
+votes = []
+race_name = []
 race=''
 continuation = False
 
@@ -80,7 +85,6 @@ def removal(dataframe):
     row_drop=[]
     return(dataframe)
 
-
 data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=(pages))
 for x in data:
     df = x
@@ -139,11 +143,6 @@ col_count = len(final.columns)-3
 final.drop(final.columns[1],axis=1,inplace=True)
 final.drop(final.columns[1],axis=1,inplace=True)
 split_results = race_split(page-1,col_count)
-precinct = []
-candidate = []
-party = []
-votes = []
-race_name = []
 key_array = []
 for x in split_results:
     key_array.append(x)
@@ -167,5 +166,4 @@ new = pd.DataFrame(final_result)
 race.replace('  ','_')
 save = race+'.csv'
 new.to_csv(save)
-# new.to_csv('new.csv')
 page = page+1
