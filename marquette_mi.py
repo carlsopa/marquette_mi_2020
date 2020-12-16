@@ -1,16 +1,13 @@
 import tabula
 import pandas as pd
-import PyPDF2
 import pdfplumber
-import numpy as np
-import re
 
 
 
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)
-page = 5
-pages = '5-6'
+page = 11
+pages = '11'
 result = []
 row_drop=[]
 race=''
@@ -24,7 +21,6 @@ def header_split(page):
     pdf.close()
     return(lines[3])
 
-#12/8/2020 - attempt at spliting the races from the header
 def race_split(page,cnt):
     result_dict = {}
     str = ''
@@ -131,7 +127,7 @@ for index, row in final.iterrows():
 final.drop(row_index,inplace=True)
 final = final.reset_index(drop=True)
 row_index = []
-if final[0].equals(final[3]):
+if final.at[3,0] == final.at[3,3]:
     final.drop(final.columns[3],axis=1,inplace=True)
 for index,row in final.iterrows():
     if pd.isna(row[1]):
@@ -142,24 +138,19 @@ final = final.reset_index(drop=True)
 col_count = len(final.columns)-3
 final.drop(final.columns[1],axis=1,inplace=True)
 final.drop(final.columns[1],axis=1,inplace=True)
-
 split_results = race_split(page-1,col_count)
-
 precinct = []
 candidate = []
 party = []
 votes = []
 race_name = []
 key_array = []
-test = False
-# count = 0
 for x in split_results:
     key_array.append(x)
-print(key_array)
-# print(split_results)
 for index, row in final.iterrows():
     count= 0
     for data in list(final.columns.values):
+        
         if data > 0:
             if count < len(key_array):
                 candidate.append(key_array[count])
@@ -169,18 +160,12 @@ for index, row in final.iterrows():
                 precinct.append(row[0])
                 race_name.append(race)
             count = count+1
-print(len(precinct))
-print(len(race_name))
-print(len(candidate))
-print(len(party))
-print(len(votes))
 
 final_result = {'precinct':precinct,'race':race_name,'candidate':candidate,'party':party,'votes':votes}
 new = pd.DataFrame(final_result)
-# print(new)
 
 race.replace('  ','_')
 save = race+'.csv'
-# final.to_csv(save)
-new.to_csv('new.csv')
+new.to_csv(save)
+# new.to_csv('new.csv')
 page = page+1
