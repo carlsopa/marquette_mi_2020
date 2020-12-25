@@ -1,12 +1,13 @@
 import tabula
 import pandas as pd
 import pdfplumber
+import re
 
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)
-page = 13
-page_start = 13
-page_end = 13
+page = 5
+page_start = 6
+page_end = 5
 pages = str(page_start)+'-'+str(page_end)
 result = []
 row_drop=[]
@@ -48,14 +49,17 @@ def race_split(page,cnt):
                 str = str.replace(x,'QualifiedWriteIn ')
                 found = True
     for x in str.split(' '):
+        if 'recinct' in x:
+            x = x.replace('recinct','')
         party = x.find('(')
         qualified = x.find('Qual')
         if party != -1:
-            result_dict.update({x[0:party]:x[party+1:party+4]})
+            result_dict.update({re.sub(r"(\w)([A-Z])", r"\1 \2", x)[0:party+2]:x[party+1:party+4]})
         elif qualified != -1:
             result_dict.update({x[0:qualified]:x[qualified:len(x)]})
         else:
             result_dict.update({x:'null'})
+    print(result_dict)
     return result_dict
 
 
@@ -85,7 +89,7 @@ def removal(dataframe):
     row_drop=[]
     return(dataframe)
 
-data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=(pages))
+data = tabula.read_pdf('marquette_mi_result.pdf',multiple_tables=True,lattice=True,stream=True,pages=('5-6'))
 for x in data:
     df = x
     df.dropna(axis='rows',how='all',inplace=True)
