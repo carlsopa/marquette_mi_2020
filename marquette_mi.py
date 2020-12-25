@@ -56,10 +56,9 @@ def race_split(page,cnt):
         if party != -1:
             result_dict.update({re.sub(r"(\w)([A-Z])", r"\1 \2", x)[0:party+2]:x[party+1:party+4]})
         elif qualified != -1:
-            result_dict.update({x[0:qualified]:x[qualified:len(x)]})
+            result_dict.update({re.sub(r"(\w)([A-Z])", r"\1 \2", x)[0:qualified+2]:'Qualified Write In'})
         else:
-            result_dict.update({x:'null'})
-    print(result_dict)
+            result_dict.update({re.sub(r"(\w)([A-Z])", r"\1 \2", x):'null'})
     return result_dict
 
 
