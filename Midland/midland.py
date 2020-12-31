@@ -93,4 +93,4 @@ while start_page <= end_page:
 
 final = {'precinct':precinct,'race':race,'candidate':candidate,'votes':votes}
 new = pd.DataFrame(final)
-new.to_csv('midland.csv')
+new.to_csv('20201103_mi_general_midland_precinct.csv')
